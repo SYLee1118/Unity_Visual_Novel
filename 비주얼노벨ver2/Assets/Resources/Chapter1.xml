@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<text>
+		<nodeID>1</nodeID>
+		<destNodeID>2</destNodeID>
+		<name>철수</name>
+		<dialogue>철수 캐릭터 등장</dialogue>
+		<캐릭터1>철수</캐릭터1>
+		<표정1>0</표정1>
+		<bgi>BG00</bgi>
+		<bgm>BGM01</bgm>
+	</text>
+	<text>
+		<nodeID>2</nodeID>
+		<destNodeID>3</destNodeID>
+		<name>철수</name>
+		<dialogue>철수 캐릭터 표정 변화</dialogue>
+		<캐릭터1>철수</캐릭터1>
+		<표정1>1</표정1>
+		<bgi>BG00</bgi>
+		<bgm>BGM01</bgm>
+	</text>
+	<text>
+		<nodeID>3</nodeID>
+		<destNodeID>4</destNodeID>
+		<name>영희</name>
+		<dialogue>철수 캐릭터에서 영희 캐릭터로 변경</dialogue>
+		<캐릭터1>영희</캐릭터1>
+		<표정1>0</표정1>
+		<bgi>BG00</bgi>
+		<bgm>BGM01</bgm>
+	</text>
+	<text>
+		<nodeID>4</nodeID>
+		<destNodeID>5</destNodeID>
+		<name>영희</name>
+		<dialogue>2개 캐릭터 동시 등장</dialogue>
+		<캐릭터1>철수</캐릭터1>
+		<표정1>2</표정1>
+		<캐릭터2>영희</캐릭터2>
+		<표정2>1</표정2>
+		<bgi>BG00</bgi>
+		<bgm>BGM01</bgm>
+	</text>
+	<text>
+		<nodeID>5</nodeID>
+		<destNodeID>6</destNodeID>
+		<name>은혜</name>
+		<dialogue>3개 캐릭터 동시 등장</dialogue>
+		<캐릭터1>철수</캐릭터1>
+		<표정1>2</표정1>
+		<캐릭터2>영희</캐릭터2>
+		<표정2>1</표정2>
+		<캐릭터3>은혜</캐릭터3>
+		<표정3>0</표정3>
+		<bgi>BG00</bgi>
+		<bgm>BGM01</bgm>
+	</text>
+	<text>
+		<nodeID>6</nodeID>
+		<destNodeID>7</destNodeID>
+		<name>철수</name>
+		<dialogue>효과음 출력1</dialogue>
+		<캐릭터1>철수</캐릭터1>
+		<표정1>3</표정1>
+		<캐릭터2>영희</캐릭터2>
+		<표정2>1</표정2>
+		<캐릭터3>은혜</캐릭터3>
+		<표정3>0</표정3>
+		<bgi>BG00</bgi>
+		<bgm>BGM01</bgm>
+		<sfx>SFX01</sfx>
+	</text>
+	<text>
+		<nodeID>7</nodeID>
+		<destNodeID>8</destNodeID>
+		<name>은혜</name>
+		<dialogue>효과음 출력2</dialogue>
+		<캐릭터1>철수</캐릭터1>
+		<표정1>3</표정1>
+		<캐릭터2>영희</캐릭터2>
+		<표정2>1</표정2>
+		<캐릭터3>은혜</캐릭터3>
+		<표정3>1</표정3>
+		<bgi>BG00</bgi>
+		<bgm>BGM01</bgm>
+		<sfx>SFX02</sfx>
+	</text>
+	<text>
+		<nodeID>8</nodeID>
+		<destNodeID>9</destNodeID>
+		<name>영희</name>
+		<dialogue>BGM 변경</dialogue>
+		<캐릭터1>철수</캐릭터1>
+		<표정1>3</표정1>
+		<캐릭터2>영희</캐릭터2>
+		<표정2>2</표정2>
+		<캐릭터3>은혜</캐릭터3>
+		<표정3>1</표정3>
+		<bgi>BG00</bgi>
+		<bgm>BGM02</bgm>
+	</text>
+	<text>
+		<nodeID>9</nodeID>
+		<destNodeID>10</destNodeID>
+		<name>철수</name>
+		<dialogue>캐릭터 다시 1개로 줄이고, BGM 원래대로.</dialogue>
+		<캐릭터1>철수</캐릭터1>
+		<표정1>0</표정1>
+		<bgi>BG00</bgi>
+		<bgm>BGM01</bgm>
+	</text>
+	<text>
+		<nodeID>10</nodeID>
+		<destNodeID>14</destNodeID>
+		<name>철수</name>
+		<dialogue>BGI 변경</dialogue>
+		<캐릭터1>철수</캐릭터1>
+		<표정1>1</표정1>
+		<bgi>BG01</bgi>
+		<bgm>BGM01</bgm>
+	</text>
+	<text>
+		<nodeID>11</nodeID>
+		<destNodeID>12</destNodeID>
+	</text>
+	<text>
+		<nodeID>12</nodeID>
+		<destNodeID>13</destNodeID>
+		<dialogue>타임라인을 이용한 컷신 연출</dialogue>
+		<bgi>CG2</bgi>
+		<bgm>BGM02</bgm>
+	</text>
+	<text>
+		<nodeID>13</nodeID>
+		<destNodeID>33</destNodeID>
+		<dialogue>컷신 연출 완료</dialogue>
+	</text>
+	<text>
+		<nodeID>14</nodeID>
+		<destNodeID>0</destNodeID>
+		<name>영희</name>
+		<dialogue>선택지 테스트. (Post Command)</dialogue>
+		<캐릭터1>영희</캐릭터1>
+		<표정1>1</표정1>
+		<bgi>BG01</bgi>
+		<bgm>BGM01</bgm>
+	</text>
+	<text>
+		<nodeID>15</nodeID>
+		<destNodeID>18</destNodeID>
+		<name>영희</name>
+		<dialogue>1번 선택지를 골랐음.</dialogue>
+		<캐릭터1>영희</캐릭터1>
+		<표정1>2</표정1>
+		<bgi>BG01</bgi>
+		<bgm>BGM01</bgm>
+	</text>
+	<text>
+		<nodeID>16</nodeID>
+		<destNodeID>18</destNodeID>
+		<name>영희</name>
+		<dialogue>2번 선택지를 골랐음.</dialogue>
+		<캐릭터1>영희</캐릭터1>
+		<표정1>3</표정1>
+		<bgi>BG02</bgi>
+		<bgm>BGM01</bgm>
+	</text>
+	<text>
+		<nodeID>17</nodeID>
+		<destNodeID>18</destNodeID>
+		<name>영희</name>
+		<dialogue>3번 선택지를 골랐음.</dialogue>
+		<캐릭터1>영희</캐릭터1>
+		<표정1>4</표정1>
+		<bgi>BG03</bgi>
+		<bgm>BGM01</bgm>
+	</text>
+	<text>
+		<nodeID>18</nodeID>
+		<destNodeID>0</destNodeID>
+		<name>철수</name>
+		<dialogue>현재 포인트에 따른 루트 변화 테스트.</dialogue>
+		<캐릭터1>철수</캐릭터1>
+		<표정1>2</표정1>
+		<bgi>BG01</bgi>
+		<bgm>BGM01</bgm>
+	</text>
+	<text>
+		<nodeID>19</nodeID>
+		<destNodeID>21</destNodeID>
+		<name>철수</name>
+		<dialogue>포인트가 20점 미만입니다.</dialogue>
+		<캐릭터1>철수</캐릭터1>
+		<표정1>0</표정1>
+		<bgi>BG03</bgi>
+		<bgm>BGM01</bgm>
+	</text>
+	<text>
+		<nodeID>20</nodeID>
+		<destNodeID>21</destNodeID>
+		<name>철수</name>
+		<dialogue>포인트가 20점 이상입니다.</dialogue>
+		<캐릭터1>철수</캐릭터1>
+		<표정1>1</표정1>
+		<bgi>BG04</bgi>
+		<bgm>BGM01</bgm>
+	</text>
+	<text>
+		<nodeID>21</nodeID>
+		<destNodeID>0</destNodeID>
+		<name>은혜</name>
+		<dialogue>아이템 획득 테스트</dialogue>
+		<캐릭터1>은혜</캐릭터1>
+		<표정1>2</표정1>
+		<bgi>BG01</bgi>
+		<bgm>BGM03</bgm>
+	</text>
+	<text>
+		<nodeID>22</nodeID>
+		<destNodeID>24</destNodeID>
+		<dialogue>열쇠를 얻었다!</dialogue>
+		<bgi>BG01</bgi>
+		<bgm>BGM03</bgm>
+	</text>
+	<text>
+		<nodeID>23</nodeID>
+		<destNodeID>24</destNodeID>
+		<dialogue>열쇠를 얻지 못했다!</dialogue>
+		<bgi>BG01</bgi>
+		<bgm>BGM03</bgm>
+	</text>
+	<text>
+		<nodeID>24</nodeID>
+		<destNodeID>0</destNodeID>
+		<dialogue>잠긴 문이 있다.</dialogue>
+		<bgi>BG01</bgi>
+		<bgm>BGM03</bgm>
+	</text>
+	<text>
+		<nodeID>25</nodeID>
+		<destNodeID>26</destNodeID>
+		<dialogue>문이 열렸다!</dialogue>
+		<bgi>BG01</bgi>
+		<sfx>SFX03</sfx>
+	</text>
+	<text>
+		<nodeID>26</nodeID>
+		<destNodeID>27</destNodeID>
+		<dialogue>열쇠를 잃었다.</dialogue>
+		<bgi>BG01</bgi>
+	</text>
+	<text>
+		<nodeID>27</nodeID>
+		<destNodeID>33</destNodeID>
+		<dialogue>탈출성공.</dialogue>
+	</text>
+	<text>
+		<nodeID>28</nodeID>
+		<destNodeID>29</destNodeID>
+		<dialogue>열쇠가 없어서 문이 열리지 않는다…</dialogue>
+		<bgi>BG01</bgi>
+		<bgm>BGM03</bgm>
+		<sfx>SFX04</sfx>
+	</text>
+	<text>
+		<nodeID>29</nodeID>
+		<destNodeID>11</destNodeID>
+		<name>영희</name>
+		<dialogue>뒤에서 뭔가 다가온다…</dialogue>
+		<캐릭터1>영희</캐릭터1>
+		<표정1>2</표정1>
+		<bgi>BG01</bgi>
+	</text>
+	<text>
+		<nodeID>32</nodeID>
+		<destNodeID>29</destNodeID>
+		<name>영희</name>
+		<dialogue>너무 늦었다…</dialogue>
+		<캐릭터1>영희</캐릭터1>
+		<표정1>2</표정1>
+		<bgi>BG01</bgi>
+	</text>
+	<text>
+		<nodeID>33</nodeID>
+		<destNodeID>0</destNodeID>
+		<dialogue>게임오버.</dialogue>
+	</text>
+</Root>

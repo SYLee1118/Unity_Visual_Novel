@@ -1,0 +1,8 @@
+nodeID,pre / post,action,parameters
+11,pre,CutScene_1,
+14,post,ActiveSelectionUI,15$포인트 20점 획득$16$포인트 0점 획득$17$포인트 -20점 획득
+15,pre,GetPoint,20
+15,pre,ActiveAlarm,20 포인트를 얻었다!
+17,pre,GetPoint,-20
+17,pre,ActiveAlarm,20 포인트를 잃었다!
+18,post,SelectNextNodeAccordingToPoint,20$19$20

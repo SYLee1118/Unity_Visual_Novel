@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<text>
+		<nodeID>11</nodeID>
+		<preORpost>pre</preORpost>
+		<action>CutScene_1</action>
+	</text>
+	<text>
+		<nodeID>14</nodeID>
+		<preORpost>post</preORpost>
+		<action>ActiveSelectionUI</action>
+		<parameters>15,포인트 20점 획득,16,포인트 0점 획득,17,포인트 -20점 획득</parameters>
+	</text>
+	<text>
+		<nodeID>15</nodeID>
+		<preORpost>pre</preORpost>
+		<action>GetPoint</action>
+		<parameters>20</parameters>
+	</text>
+	<text>
+		<nodeID>15</nodeID>
+		<preORpost>pre</preORpost>
+		<action>ActiveAlarm</action>
+		<parameters>20 포인트를 얻었다!</parameters>
+	</text>
+	<text>
+		<nodeID>17</nodeID>
+		<preORpost>pre</preORpost>
+		<action>GetPoint</action>
+		<parameters>-20</parameters>
+	</text>
+	<text>
+		<nodeID>17</nodeID>
+		<preORpost>pre</preORpost>
+		<action>ActiveAlarm</action>
+		<parameters>20 포인트를 잃었다!</parameters>
+	</text>
+	<text>
+		<nodeID>18</nodeID>
+		<preORpost>post</preORpost>
+		<action>SelectNextNodeAccordingToPoint</action>
+		<parameters>20,19,20</parameters>
+	</text>
+</Root>
